@@ -22,7 +22,7 @@ def partition(arr, l, r):
     return i+1
 
 def randomized_partition(arr,l,r):
-    i = random.randint(l,r)
+    i = random.randint(l,r-1)
     arr[i], arr[r] = arr[r], arr[i]
     return partition(arr,l,r)
 
