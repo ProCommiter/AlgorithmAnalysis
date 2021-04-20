@@ -42,7 +42,7 @@ def main():
     print(val)
     print(wt)
 
-    print("Knapsack can only hold the weight of", W, "amount", end = " ")
+    print("Knapsack has capacity of", W, "amount", end = " ")
     print(knapsack(W,wt,val,n), "is the maximum profit")
 
 if __name__ == '__main__':
