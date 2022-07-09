@@ -1,12 +1,9 @@
-# AlgorithmAnalysis
+# Algorithm Analysis
 
-The code is made with pseudocode from 'Introduction to Algorithms 3rd edition'.
+The Python code references the pseudocode from Cormen, T. H., & Leiserson, C. E. (2009). Introduction to algorithms, 3rd edition.
+https://sd.blackball.lv/library/Introduction_to_Algorithms_Third_Edition_(2009).pdf
 
-The repository is made for better understanding of analysis in algorithms.
-
-Codes are written in python.
-
-Binary Heap data structure:
+The repository is made for better understanding of algorithm analysis (e.g. Binary Heap).
 
     A one-dimensional array A viewed as a nearly complete binary tree T.
     Each element of A corresponds to a node of T:
